@@ -1,0 +1,67 @@
+
+h1{
+    text-align: center;
+}
+
+.mainContainer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.showChoise{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choiseText{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.vs{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.choiceContainer{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choiseIMG{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.choiseIMG:hover{
+    background-color: gray;
+}
+
+.choiseIMG img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
