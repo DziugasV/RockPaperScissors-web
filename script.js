@@ -29,7 +29,8 @@ for(var i = 0; i < buttons.length; i++){
         playerText.textContent = pChoise;
 
         var pcChoise = choise[Math.floor(Math.random() * choise.length)];
-var pcButton = Array.from(buttons).find(btn => btn.getAttribute('data-choice') === pcChoise);        var pcImg = pcButton.querySelector('img').src;
+        var pcButton = Array.from(buttons).find(btn => btn.getAttribute('data-choice') === pcChoise);
+        var pcImg = pcButton.querySelector('img').src;
         var existingPcImg = pcDiv.querySelector('img');
         if(existingPcImg){
             existingPcImg.remove();
@@ -61,4 +62,5 @@ var pcButton = Array.from(buttons).find(btn => btn.getAttribute('data-choice') =
             alert(result);
         }, 200);
     }
+
 }
